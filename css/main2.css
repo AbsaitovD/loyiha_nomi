@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "OpenSans_Bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans_Light";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans_Regular";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans_Semibold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype"); }
+.font-family-bold {
+  font-family: "OpenSans-Bold", sans-serif; }
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif; }
+
+.font-family-light {
+  font-family: "OpenSans-Regular", sans-serif; }
+
+.font-family-bold {
+  font-family: "OpenSans_SemiBold", sans-serif; }
+
+.icon9 {
+  width: 20px;
+  height: 20px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub; }
+  .icon9.icon9-pasga {
+    mask-image: url("../icons/pasga2.png");
+    -webkit-mask-image: url("../icons/pasga2.png"); }
+
+.icon3 {
+  width: 20px;
+  height: 20px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: red;
+  vertical-align: sub; }
+  .icon3.icon-smile1 {
+    mask-image: url("../icons/frown copy 3.png");
+    -webkit-mask-image: url("../icons/frown copy 3.png"); }
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: seagreen;
+  vertical-align: sub; }
+  .icon2.icon-smile {
+    mask-image: url("../icons/frown copy 2.png");
+    -webkit-mask-image: url("../icons/frown copy 2.png"); }
+
+.icon1 {
+  width: 15px;
+  height: 15px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub; }
+  .icon1.icon-zvezda {
+    mask-image: url("../icons/Star Copy 8.png");
+    -webkit-mask-image: url("../icons/Star Copy 8.png"); }
+
+.icon {
+  width: 15px;
+  height: 15px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub; }
+  .icon.icon-icon {
+    mask-image: url("../icons/Combined Shape Copy.png");
+    -webkit-mask-image: url("../icons/Combined Shape Copy.png"); }
+  .icon.icon-burg {
+    mask-image: url("../icons/menu copy (2).png");
+    -webkit-mask-image: url("../icons/menu copy (2).png"); }
+  .icon.icon-time {
+    mask-image: url("../icons/Shape (17).png");
+    -webkit-mask-image: url("../icons/Shape (17).png"); }
+  .icon.icon-youtobe {
+    mask-image: url("../icons/Shape (16).png");
+    -webkit-mask-image: url("../icons/Shape (16).png"); }
+
+main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .card-header .nav .nav-item .nav-link {
+  position: relative;
+  color: darkgray; }
+  main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .card-header .nav .nav-item .nav-link:hover, main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .card-header .nav .nav-item .nav-link.active {
+    color: black; }
+    main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .card-header .nav .nav-item .nav-link:hover:after, main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .card-header .nav .nav-item .nav-link.active:after {
+      width: 100%; }
+main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .card-header .nav .nav-item :after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: dimgray;
+  transition: all 0.5s linear; }
+main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .tab-content .tab-pane .card {
+  position: relative; }
+  main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .tab-content .tab-pane .card .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: seagreen;
+    width: 3px;
+    height: 0;
+    transition: all 0.5s linear; }
+  main section#Dilshod2 .bg-white .container .row:nth-child(2) .col-8 .tab-content .tab-pane .card:hover .left {
+    height: 100%; }
+
+/*# sourceMappingURL=main2.css.map */

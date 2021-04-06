@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "OpenSans_Bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans_Light";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans_Regular";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans_Semibold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype"); }
+.font-family-bold {
+  font-family: "OpenSans-Bold", sans-serif; }
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif; }
+
+.font-family-light {
+  font-family: "OpenSans-Regular", sans-serif; }
+
+.font-family-bold {
+  font-family: "OpenSans_SemiBold", sans-serif; }
+
+.icon3 {
+  width: 40px;
+  height: 40px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub; }
+  .icon3.icon-ball {
+    mask-image: url("../icons/ball.png");
+    -webkit-mask-image: url("../icons/ball.png"); }
+  .icon3.icon-mikro {
+    mask-image: url("../icons/mikro.png");
+    -webkit-mask-image: url("../icons/mikro.png"); }
+  .icon3.icon-mts {
+    mask-image: url("../icons/mts.png");
+    -webkit-mask-image: url("../icons/mts.png"); }
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: black;
+  vertical-align: sub; }
+  .icon2.icon-icon {
+    mask-image: url("../icons/Path (4).png");
+    -webkit-mask-image: url("../icons/Path (4).png"); }
+
+.icon1 {
+  width: 20px;
+  height: 20px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: white;
+  vertical-align: sub; }
+  .icon1.icon-icon {
+    mask-image: url("../icons/Path (4).png");
+    -webkit-mask-image: url("../icons/Path (4).png"); }
+
+.icon {
+  width: 15px;
+  height: 15px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: #000;
+  vertical-align: sub; }
+  .icon.icon-burg {
+    mask-image: url("../icons/menu copy (2).png");
+    -webkit-mask-image: url("../icons/menu copy (2).png"); }
+  .icon.icon-icons {
+    mask-image: url("../icons/Shape (15).png");
+    -webkit-mask-image: url("../icons/Shape (15).png"); }
+
+body {
+  background-color: white; }
+  body main section#Dilshod .a4 {
+    background-color: #F8F8FA; }
+    body main section#Dilshod .a4 .container .row .col-12 .nav .nav-item .a1 {
+      position: relative;
+      font-size: 13px;
+      color: darkgray; }
+      body main section#Dilshod .a4 .container .row .col-12 .nav .nav-item .a1:hover, body main section#Dilshod .a4 .container .row .col-12 .nav .nav-item .a1.active {
+        color: #000; }
+        body main section#Dilshod .a4 .container .row .col-12 .nav .nav-item .a1:hover:before, body main section#Dilshod .a4 .container .row .col-12 .nav .nav-item .a1.active:before {
+          width: 100%; }
+    body main section#Dilshod .a4 .container .row .col-12 .nav .nav-item :before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: red;
+      transition: all 0.5s linear; }
+  body main section#Dilshod .a2 {
+    background-color: #003846;
+    height: 749px; }
+    body main section#Dilshod .a2 .container .row .col-12 h1 {
+      font-size: 55px;
+      margin-top: 80px; }
+    body main section#Dilshod .a2 .container .row .col-lg-4 {
+      background-image: url("../images/removebg2.png");
+      background-size: 80%;
+      background-repeat: no-repeat;
+      height: 500px; }
+    body main section#Dilshod .a2 .container .row:nth-child(2) .col-12 {
+      background-color: #0c5460; }
+    body main section#Dilshod .a2 .container .row:nth-child(2) .col-12:nth-child(2) {
+      background-color: #F8F8FA; }
+      body main section#Dilshod .a2 .container .row:nth-child(2) .col-12:nth-child(2) .a3 {
+        margin-top: 135px; }
+    body main section#Dilshod .a2 .container .row:nth-child(2) .col-12:nth-child(3) {
+      background-color: #F8F8FA; }
+      body main section#Dilshod .a2 .container .row:nth-child(2) .col-12:nth-child(3) .a5 {
+        margin-top: 105px; }
+    body main section#Dilshod .a2 .container .row:nth-child(2) .col-12:nth-child(4) {
+      background-color: #F8F8FA; }
+      body main section#Dilshod .a2 .container .row:nth-child(2) .col-12:nth-child(4) .a5 {
+        margin-top: 105px; }
+    body main section#Dilshod .a2 .container .row:nth-child(3) h5 {
+      position: relative; }
+      body main section#Dilshod .a2 .container .row:nth-child(3) h5 a {
+        color: black; }
+      body main section#Dilshod .a2 .container .row:nth-child(3) h5:hover::after {
+        width: 100%; }
+      body main section#Dilshod .a2 .container .row:nth-child(3) h5:after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: dimgray;
+        transition: all 0.5s linear; }
+    body main section#Dilshod .a2 .container .row:nth-child(5) .table tbody tr:hover {
+      background-color: #003846; }
+      body main section#Dilshod .a2 .container .row:nth-child(5) .table tbody tr:hover td {
+        color: white; }
+        body main section#Dilshod .a2 .container .row:nth-child(5) .table tbody tr:hover td span {
+          background-color: white; }
+    body main section#Dilshod .a2 .container .row:nth-child(7) .col .row:hover .a6 {
+      box-shadow: 0 0 10px 10px darkgray; }
+    body main section#Dilshod .a2 .container .row:nth-child(7) .col .row .a6 {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      background-color: #003846; }
+      body main section#Dilshod .a2 .container .row:nth-child(7) .col .row .a6 img {
+        border-radius: 50%; }
+    body main section#Dilshod .a2 .container .row:nth-child(7) .col .row a:hover h6 {
+      text-shadow: 0 0 5px darkgray; }
+    body main section#Dilshod .a2 .a7 {
+      background-color: #F8F8FA; }
+      body main section#Dilshod .a2 .a7 .container .row:nth-child(2) .carousel .carousel-indicators .a9 {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: black; }
+      body main section#Dilshod .a2 .a7 .container .row:nth-child(2) .carousel .carousel-inner .carousel-item .card {
+        width: 900px; }
+      body main section#Dilshod .a2 .a7 .container .row:nth-child(2) .carousel .carousel-inner .carousel-item img:nth-child(2) {
+        transform: translateX(-150px) scale(0.8); }
+
+@media (max-width: 768px) {
+  body .a2 {
+    background-color: #003846;
+    height: 350px; }
+    body .a2 .container .row .col-12 h1 {
+      font-size: 30px;
+      margin-top: 40px; }
+    body .a2 .container .row .col-12 p {
+      font-size: 14px; }
+    body .a2 .container .row .col-lg-4 {
+      background-image: url("../images/removebg2.png");
+      background-size: 100%;
+      background-repeat: no-repeat; } }
+@media (max-width: 576px) {
+  body .a2 {
+    background-color: #003846;
+    height: 300px;
+    background-image: url("../images/removebg2.png");
+    background-size: 30%;
+    background-repeat: no-repeat; }
+    body .a2 .container .row .col-8 h1 {
+      font-size: 30px;
+      margin-top: 40px; }
+    body .a2 .container .row .col-8 p {
+      font-size: 14px; }
+    body .a2 .container .row .col-lg-4 {
+      background-image: url("../images/removebg2.png");
+      background-size: 30%;
+      background-repeat: no-repeat;
+      display: none; } }
+
+/*# sourceMappingURL=main.css.map */
