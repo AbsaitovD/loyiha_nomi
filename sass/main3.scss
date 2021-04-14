@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "OpenSans_Bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans_Light";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans_Regular";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans_Semibold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+.font-family-bold {
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif;
+}
+
+.font-family-light {
+  font-family: "OpenSans-Regular", sans-serif;
+}
+
+.font-family-bold {
+  font-family: "OpenSans_SemiBold", sans-serif;
+}
+
+$color-bg: #F8F8FA;
+$color-icon: #000;
+$color-purple: #fff;
+
+
+
+.icon8 {
+  width: 20px;
+  height: 20px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub;
+
+
+  &.icon-pasga {
+    mask-image: url("../icons/pasga.png");
+    -webkit-mask-image: url("../icons/pasga.png");
+  }
+}
+.icon7 {
+  width: 15px;
+  height: 15px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub;
+
+
+  &.icon-barmoq {
+    mask-image: url("../icons/barmoq.png");
+    -webkit-mask-image: url("../icons/barmoq.png");
+  }
+}
+.icon6 {
+  width: 15px;
+  height: 15px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: forestgreen;
+  vertical-align: sub;
+
+
+  &.icon-pitichka {
+    mask-image: url("../icons/pitichka.png");
+    -webkit-mask-image: url("../icons/pitichka.png");
+  }
+  &.icon-tg {
+    mask-image: url("../icons/Shape (18).png");
+    -webkit-mask-image: url("../icons/Shape (18).png");
+  }
+}
+
+.icon5 {
+  width: 20px;
+  height: 20px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: forestgreen;
+  vertical-align: sub;
+
+
+  &.icon-youtobe {
+    mask-image: url("../icons/youtobe.png");
+    -webkit-mask-image: url("../icons/youtobe.png");
+  }
+}
+.icon4 {
+  width: 15px;
+  height: 15px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub;
+
+
+  &.icon-bell {
+    mask-image: url("../icons/bell.png");
+    -webkit-mask-image: url("../icons/bell.png");
+  }
+  &.icon-eye {
+    mask-image: url("../icons/eye.png");
+    -webkit-mask-image: url("../icons/eye.png");
+  }
+
+}
+.icon3 {
+  width: 20px;
+  height: 20px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: red;
+  vertical-align: sub;
+
+
+  &.icon-smile1 {
+    mask-image: url("../icons/frown copy 3.png");
+    -webkit-mask-image: url("../icons/frown copy 3.png");
+  }
+}
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: seagreen;
+  vertical-align: sub;
+
+
+  &.icon-smile {
+    mask-image: url("../icons/frown copy 2.png");
+    -webkit-mask-image: url("../icons/frown copy 2.png");
+  }
+}
+
+.icon1 {
+  width: 15px;
+  height: 15px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub;
+
+
+  &.icon-zvezda {
+    mask-image: url("../icons/Star Copy 8.png");
+    -webkit-mask-image: url("../icons/Star Copy 8.png");
+  }
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  background-color: dimgray;
+  vertical-align: sub;
+
+
+  &.icon-icon {
+    mask-image: url("../icons/Combined Shape Copy.png");
+    -webkit-mask-image: url("../icons/Combined Shape Copy.png");
+  }
+  &.icon-burg {
+    mask-image: url("../icons/menu copy (2).png");
+    -webkit-mask-image: url("../icons/menu copy (2).png");
+  }
+  &.icon-time {
+    mask-image: url("../icons/Shape (17).png");
+    -webkit-mask-image: url("../icons/Shape (17).png");
+  }
+  &.icon-youtobe {
+    mask-image: url("../icons/Shape (16).png");
+    -webkit-mask-image: url("../icons/Shape (16).png");
+  }
+}
+
+main{
+  section{
+    &#Dilshod3{
+      .bg-white{
+        .container{
+          .row{
+            .col-12{
+              &:nth-child(2){
+                a{
+                  .d-flex{
+                    .a1{
+                      width: 30px;
+                      height: 30px;
+                      border-radius: 50%;
+                      background-color: $color-bg;
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+      .a2{
+        background-color: $color-bg;
+        .container{
+          .row{
+            .col-8{
+              .card-header{
+                .nav{
+                  .nav-item{
+                    a{
+                      position: relative;
+                      color: darkgray;
+                      &:hover, &.active {
+                        color: black;
+                        &:after{
+                          width: 100%;
+                        }
+                      }
+
+                    }
+                    :after{
+                      position: absolute;
+                      content: '';
+                      bottom: 0;
+                      left: 0;
+                      width: 0;
+                      height: 2px;
+                      background-color: dimgray;
+                      transition: all 0.5s linear;
+                    }
+                  }
+                }
+              }
+
+              .card-body{
+                .tab-content{
+                  .tab-pane{
+                    .row{
+                      .col-9{
+                        .border{
+                          border-radius: 20px;
+                        }
+                        .position-absolute{
+                          width: 30px;
+                          height: 30px;
+                          background-color: $color-bg;
+                          border-radius: 50%;
+                          right: 0;
+                          bottom: 20px;
+                        }
+                      }
+                      .col-10{
+                        &:nth-child(2){
+                          .border{
+                            background-color: $color-bg;
+                            border-radius: 20px;
+                            .position-absolute{
+                              left: -25px;
+                              top: 15px;
+                            }
+                          }
+                          .a3{
+                            position: absolute;
+                            height: 30px;
+                            width: 30px;
+                            border-radius: 50%;
+                            right: 10px;
+                            bottom: 20px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
